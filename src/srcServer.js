@@ -10,6 +10,7 @@ const port = 2222;
 const app = express();
 const compiler = webpack(config);
 
+app.use(express.static('../public'));
 app.use(webpackDevMiddleware(compiler, {
   hot: true,
   noInfo: true,

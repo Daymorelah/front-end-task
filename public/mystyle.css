@@ -1,0 +1,12 @@
+
+.gameBox{
+  border: 2px solid #000;
+  height: 2em;
+  width: 2em;
+  background-color: rgb(42, 23, 218);
+  color: red;
+}
+
+h2{
+  color: yellow;
+}

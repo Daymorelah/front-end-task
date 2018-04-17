@@ -1,11 +1,19 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './routes';
+import store from './Store/configureStore';
+import './style.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
-const App = () => (
-  <div>
-    <h1 >Yay!... it works </h1>
-  </div>
+render(
+  <Provider store={store}>
+    <Router>
+      <Routes />
+    </Router>
+  </Provider>,
+  /* eslint-disable no-undef */
+  document.getElementById('app'),
 );
 
-/* eslint-disable no-undef */
-ReactDom.render(<App />, document.getElementById('app'));
