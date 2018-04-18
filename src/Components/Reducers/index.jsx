@@ -1,11 +1,8 @@
 import { combineReducers } from 'redux';
-
-const Board = {
-  show: 1,
-};
+import dimensions from './boardDimensionReducer';
 
 const rootReducer = combineReducers({
-  Board,
+  dimensions,
 });
 
 export default rootReducer;
