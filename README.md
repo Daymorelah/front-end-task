@@ -42,7 +42,9 @@ To report an issue or give feedback, Click link
 [Issues and Feedback](https://github.com/Daymorelah/front-end-task/issues)
 
 ### Note:
-This game is not completed yet. To play the game click the top left box to start the game.
+* This game is not completed yet. 
+* Before playing the game, click the top left box of the game board to start the game. 
+* To play he game the user uses a mouse-click to move the player.
 
 ## Authors
 * Ademola Hussain
