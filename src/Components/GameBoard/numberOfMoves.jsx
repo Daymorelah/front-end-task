@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const NumberOfMoves = ({ moves }) => (
-  <div className="text-center text">{
+  <div className="text-center text-primmary">{
       moves > 1 ?
         <p>You made a total of {moves} moves</p> :
         <p>You made a total of {moves} move</p>

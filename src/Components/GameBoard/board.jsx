@@ -69,8 +69,7 @@ class Board extends Component {
     }
 
     if (parentButtonId.contains(princessPicture)) {
-      parentButtonId.removeChild(princessPicture);
-      parentButtonId.appendChild(marioImage);
+      parentButtonId.replaceChild(marioImage, princessPicture);
       this.setState({ moves: this.state.moves + 1 });
     } else {
       parentButtonId.appendChild(marioImage);
