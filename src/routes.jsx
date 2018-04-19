@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import App from './Components/app';
-import Board from './Components/board';
-import Welcome from './Components/welcome';
+import Board from './Components/GameBoard/board';
+import Welcome from './Components/Welcome/welcome';
 
 const Routes = () => (
   <Switch>

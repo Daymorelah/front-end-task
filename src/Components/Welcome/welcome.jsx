@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Welcomeplayer from './welcomePlayer';
-import setBoardDimensions from './Actions/boardDimentionsAction';
+import setBoardDimensionsActions from '../Actions/boardDimentionsAction';
 
 class Welcome extends Component {
   constructor(props, context) {
@@ -29,7 +29,7 @@ Welcome.propTypes = {
 
 function mapDispatchToProps(dispatch) {
   return {
-    setBoardDimensions: (dimensions) => { dispatch(setBoardDimensions(dimensions)); },
+    setBoardDimensions: (dimensions) => { dispatch(setBoardDimensionsActions(dimensions)); },
   };
 }
 

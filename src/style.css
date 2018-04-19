@@ -1,11 +1,13 @@
 
 #board{ 
   height: 300px; 
-  /* display: flex;
-  flex-wrap: wrap;  */
+  /* display: flex; 
+  flex-wrap: wrap;   */
  }
 .boardSquare{
   border: 1px solid #cd853f;
   height: 50px;
   width: 50px;
+  margin: 0;
+  padding: 0;
 }
