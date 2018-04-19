@@ -41,7 +41,6 @@ class Board extends Component {
       <div>{
         this.state.renderBoard ?
           <GameBoard
-            mario={this.state.pic}
             handleClickEvent={this.handleClickEvent}
             dimensions={this.props.boardDimension}
           /> : <Redirect to="/welcome" />

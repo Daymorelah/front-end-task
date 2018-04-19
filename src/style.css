@@ -1,13 +1,11 @@
 
-
-#board{
-  width: 300px;
-  display: flex;
-  flex-wrap: wrap;
-}
+#board{ 
+  height: 300px; 
+  /* display: flex;
+  flex-wrap: wrap;  */
+ }
 .boardSquare{
-  text-decoration: none;
-  border: 2px solid #cd853f;
+  border: 1px solid #cd853f;
   height: 50px;
   width: 50px;
 }
