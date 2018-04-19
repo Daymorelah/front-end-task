@@ -1,13 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const App = () => (
+const App = props => (
   <div>
-    <h1 className="text-primary">Yay!... it works </h1>
-    <div>hello div</div>
-    <button className="btn btn-primary">click me</button>
-    <div className="gameboxs" />
-    <p id="gamebox" > complete me!</p>
+    {props.children}
   </div>
 );
 
+App.propTypes = {
+  children: PropTypes.objectOf(PropTypes.any).isRequired,
+};
+
 export default App;
+
